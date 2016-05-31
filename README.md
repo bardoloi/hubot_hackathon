@@ -18,6 +18,12 @@ You can test your hubot by running the following, however some plugins will not
 behave as expected unless the [environment variables](#configuration) they rely
 upon have been set.
 
+Setup:
+
+    % git clone git@github.com:bardoloi/hubot_hackathon.git
+    % cd hubot_hackathon
+    npm install --save
+
 You can start chadbot locally by running:
 
     % bin/hubot
