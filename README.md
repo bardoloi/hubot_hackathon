@@ -22,7 +22,7 @@ Setup:
 
     % git clone git@github.com:bardoloi/hubot_hackathon.git
     % cd hubot_hackathon
-    npm install --save
+    % npm install --save
 
 You can start chadbot locally by running:
 
