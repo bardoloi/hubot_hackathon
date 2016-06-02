@@ -8,7 +8,7 @@ quips = [
 ]
 
 module.exports = (robot) ->
-	robot.hear /(.+)?(tableflip)(.+)?/i, (msg) ->
+	robot.hear /(.+)?:tableflip:(.+)?/i, (msg) ->
 		val = msg.random odds
 		if val > 25
 			msg.send msg.random quips
