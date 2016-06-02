@@ -67,12 +67,11 @@ it's suggested that you search for a dedicated guide focused on your OS.
 ### Scripting
 
 Some example .coffee scripts are included in the `scripts/**.coffee` folder, so check them out to
-get started, along with the [Scripting Guide](scripting-docs).
+get started, along with the [Scripting Guide](https://hubot.github.com/docs/scripting).
 
 For many common tasks, there's a good chance someone has already one to do just
 the thing.
 
-[scripting-docs]: https://hubot.github.com/docs/scripting/
 
 ### external-scripts
 
