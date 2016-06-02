@@ -1,5 +1,5 @@
 # Description:
-#   Bring forth zombies
+#   Bring forth dancing Glenn
 #
 # Dependencies:
 #   None
@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   zombie - Calls in a zombie
+#   glenn - Calls in a daning glenn
 #
 # Author:
 #   solap
