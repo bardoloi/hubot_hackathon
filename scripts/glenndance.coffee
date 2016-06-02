@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   glenn - Calls in a daning glenn
+#   glenn - Calls in a dancing glenn
 #
 # Author:
 #   solap
