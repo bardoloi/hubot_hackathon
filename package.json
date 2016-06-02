@@ -1,9 +1,9 @@
 {
-  "name": "hsbot",
+  "name": "chadbot",
   "version": "0.0.0",
   "private": true,
-  "author": "chris+hsbot@headspring.com",
-  "description": "Headspring's Hipchat Hubot",
+  "author": "vishal.bardoloi@headspring.com",
+  "description": "Headspring Dallas's Hipchat Hubot",
   "dependencies": {
     "hubot": "^2.17.0",
     "hubot-help": "^0.1.3",
