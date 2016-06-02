@@ -66,13 +66,13 @@ it's suggested that you search for a dedicated guide focused on your OS.
 
 ### Scripting
 
-An example script is included at `scripts/example.coffee`, so check it out to
+Some example .coffee scripts are included in the `scripts/**.coffee` folder, so check them out to
 get started, along with the [Scripting Guide](scripting-docs).
 
 For many common tasks, there's a good chance someone has already one to do just
 the thing.
 
-[scripting-docs]: https://github.com/github/hubot/blob/master/docs/scripting.md
+[scripting-docs]: https://hubot.github.com/docs/scripting/
 
 ### external-scripts
 
@@ -220,5 +220,5 @@ Add the subdomain hubot should connect to. If you web URL looks like
 
 ## Restart the bot
 
-You may want to get comfortable with `heroku logs` and `heroku restart` if
+You may want to get comfortable with `heroku restart`, `heroku logs --tail` and `heroku ps --app your-app-name` if
 you're having issues.
