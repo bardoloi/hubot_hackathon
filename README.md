@@ -1,6 +1,7 @@
 # chadbot
 
 Intro Presentation: http://slides.com/bardoloi/hubot-intro#/
+
 Deployed to Heroku: hs-dal-slack-hubot.herokuapp.com
 
 chadbot is a chat bot built on the [Hubot][hubot] framework. It was
