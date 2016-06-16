@@ -49,9 +49,6 @@ module.exports = (robot) ->
   robot.respond /rps (.*)/i, (msg) ->
     userChoice = msg.match[1]
 
-    if userChoice == 'reset'
-      return
-
     computerChoice = getRandomChoice()
     uniqueKey = msg.envelope.user
     userWins = robot.brain.get('userWins' + uniqueKey) || 0
@@ -70,7 +67,7 @@ module.exports = (robot) ->
         msg.reply 'You win!   You(' + (userWins + 1) + ') vs Computer(' + computerWins + ')'
         robot.brain.set 'userWins' + uniqueKey, userWins + 1
 
-  robot.respond /rps reset/i, (msg) ->
+  robot.respond /rpsreset/i, (msg) ->
     uniqueKey = msg.envelope.user
     robot.brain.set 'computerWins' + uniqueKey, 0
     robot.brain.set 'userWins' + uniqueKey, 0
