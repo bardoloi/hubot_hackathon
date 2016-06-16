@@ -48,6 +48,10 @@ choices.forEach (choice, i) ->
 module.exports = (robot) ->
   robot.respond /rps (.*)/i, (msg) ->
     userChoice = msg.match[1]
+
+    if userChoice == 'reset'
+      return
+
     computerChoice = getRandomChoice()
     uniqueKey = msg.envelope.user
     userWins = robot.brain.get('userWins' + uniqueKey) || 0
