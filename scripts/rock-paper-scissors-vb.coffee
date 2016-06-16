@@ -18,7 +18,7 @@ module.exports = (robot) ->
     player1 = msg.message.user.name
     player2 = msg.match[1].trim()
 
-    msg.send "#{player1} challenges #{player2} to a Roshambo game!"
+    msg.send "@#{player1} challenges @#{player2} to a Roshambo game!"
     # gameOn = robot.brain.roshamboGames(player2)
     #   return msg.reply "#{player2} does not exist" unless user?
     #   user.roles or= []
