@@ -1,4 +1,5 @@
 [
   "hubot-help",
-  "hubot-heroku-keepalive"
+  "hubot-heroku-keepalive",
+  "hubot-redis-brain"
 ]
