@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   hubot rps rock
+#   hubot rps <choice> - rock, paper, scissors, reset
 #
 # Author:
 #   @emb
@@ -49,6 +49,12 @@ module.exports = (robot) ->
   robot.respond /rps (.*)/i, (msg) ->
     userChoice = msg.match[1]
 
+    if userChoice == 'reset'
+      robot.brain.set 'computerWins' + uniqueKey, 0
+      robot.brain.set 'userWins' + uniqueKey, 0
+      msg.reply 'All set... let\'s play again!'
+      return
+
     computerChoice = getRandomChoice()
     uniqueKey = msg.envelope.user
     userWins = robot.brain.get('userWins' + uniqueKey) || 0
@@ -66,9 +72,3 @@ module.exports = (robot) ->
       when 3
         msg.reply 'You win!   You(' + (userWins + 1) + ') vs Computer(' + computerWins + ')'
         robot.brain.set 'userWins' + uniqueKey, userWins + 1
-
-  robot.respond /rpsreset/i, (msg) ->
-    uniqueKey = msg.envelope.user
-    robot.brain.set 'computerWins' + uniqueKey, 0
-    robot.brain.set 'userWins' + uniqueKey, 0
-    msg.reply 'All set... let\'s play again!'
