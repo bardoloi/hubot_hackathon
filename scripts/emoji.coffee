@@ -8,16 +8,6 @@
 #   None
 #
 # Commands:
-#   finn: '| (•□•) |',
-#   jake: '(❍ᴥ❍ ʋ)',
-#   smiling: '(ʘ‿ʘ)',
-#   disapprove: '(ಠ_ಠ)',
-#   devious-smile: '(ಠ⌣ಠ)',
-#   devious: '(ಠ‿ಠ)',
-#   crying: '(ಥ﹏ಥ)',
-#   raging: 'ლ(ಠ益ಠლ)',
-#   eye-rolling: '◔̯◔',
-#   shrugging: '¯\(°_o)/¯'
 #
 # Author:
 #   Chadbox
